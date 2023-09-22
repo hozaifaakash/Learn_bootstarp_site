@@ -1,0 +1,244 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap);
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  color: #222;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+/* navbar start */
+
+.navbar {
+  padding: 0.8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+/* navbar end */
+
+/* img slider start*/
+.image{
+  position: relative;
+}
+
+.image img{
+  height: 850px;
+  width: 100%;
+}
+
+.image-caption {
+  position: absolute;
+  top: 250px;
+  left: 700px;
+}
+
+
+.image-caption h1 {
+  color: white;
+  margin-left: 10px;
+  font-size: 500%;
+  text-shadow: 1px 1px 15px black;
+}
+
+.image-caption h3 {
+  font-size: 200%;
+  font-weight: 500px;
+  text-shadow: 1px 1px 10px white;
+}
+.btn-outline-light{
+  margin-left: 40px;
+}
+
+.btn-primary {
+  margin-left: 20px;
+  background-color: blueviolet;
+  border: 1px blueviolet;
+}
+
+.btn-primary:hover {
+  background-color: rgb(90, 26, 150);
+  border: rgb(90, 26, 150);
+}
+
+/* image slider end */
+
+/* jumbotorn start */
+
+.jumbotron {
+  padding: 1rem;
+  border-radius: 0;
+}
+
+/* Jumbotorn end */
+
+/* welcome section start */
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 75%;
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+/* welcome section end */
+
+/* Three collum section start */
+
+.fa-code {
+  color: rgb(238, 67, 5);
+  font-size: 4rem;
+}
+
+.fa-css3 {
+  color: rgb(13, 70, 175);
+  font-size: 4rem;
+}
+
+.fa-bold {
+  color: rgb(130, 26, 214);
+  font-size: 4rem;
+}
+
+/* Three collum section end */
+
+
+
+/* card section */
+
+.card {
+  margin: 0 auto;
+}
+
+.tutorial {
+  padding: 3%;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+/* conect section start */
+
+.social a {
+  padding: 3rem;
+  font-size: 4.3rem;
+}
+
+.fa-facebook-square {
+  color: rgb(11, 44, 107);
+}
+
+.fa-twitter {
+  color: rgb(10, 86, 228);
+}
+
+.fa-google-plus-g {
+  color: rgb(182, 18, 18);
+}
+
+.fa-instagram {
+  color: rgb(102, 93, 12);
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-facebook-square:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: gray;
+}
+
+/* conect section end */
+
+/* footer start */
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding: 3rem;
+}
+
+hr.light {
+  border: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #d5d5d5;
+}
+
+hr.light-100 {
+  border: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+/* footer end */
+
+/* Responsive media */
+
+@media (max-width: 992px) {
+  .image img{
+  height: 500px;
+  width: 100%;
+  }
+  .social a {
+    padding: 3rem;
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 200%;
+  }
+  .image img{
+  height: 350px;
+  width: 100%;
+  }
+
+}
+
+@media (max-width: 556px) {
+
+  .image img{
+  height: 300px;
+  width: 100%;
+  }
+
+}
+
+.display-4 {
+  font-size: 160%;
+}
+
+.social a {
+  padding: 0.7rem;
+  font-size: 2rem;
+}
+
+/* Responsive media end  */
